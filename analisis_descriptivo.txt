@@ -1,0 +1,44 @@
+Resumen Estadístico para Variables Numéricas:
+    LotArea         GrLivArea     TotalBsmtSF       YearBuilt      GarageCars      SalePrice     
+ Min.   :  1300   Min.   : 334   Min.   :   0.0   Min.   :1872   Min.   :0.000   Min.   : 34900  
+ 1st Qu.:  7554   1st Qu.:1130   1st Qu.: 795.8   1st Qu.:1954   1st Qu.:1.000   1st Qu.:129975  
+ Median :  9478   Median :1464   Median : 991.5   Median :1973   Median :2.000   Median :163000  
+ Mean   : 10517   Mean   :1515   Mean   :1057.4   Mean   :1971   Mean   :1.767   Mean   :180921  
+ 3rd Qu.: 11602   3rd Qu.:1777   3rd Qu.:1298.2   3rd Qu.:2000   3rd Qu.:2.000   3rd Qu.:214000  
+ Max.   :215245   Max.   :5642   Max.   :6110.0   Max.   :2010   Max.   :4.000   Max.   :755000  
+
+Tablas de Frecuencia para Variables Categóricas:
+$Neighborhood
+
+Blmngtn Blueste  BrDale BrkSide ClearCr CollgCr Crawfor Edwards Gilbert  IDOTRR MeadowV Mitchel 
+     17       2      16      58      28     150      51     100      79      37      17      49 
+  NAmes NoRidge NPkVill NridgHt  NWAmes OldTown  Sawyer SawyerW Somerst StoneBr   SWISU  Timber 
+    225      41       9      77      73     113      74      59      86      25      25      38 
+Veenker 
+     11 
+
+$BldgType
+
+  1Fam 2fmCon Duplex  Twnhs TwnhsE 
+  1220     31     52     43    114 
+
+$HouseStyle
+
+1.5Fin 1.5Unf 1Story 2.5Fin 2.5Unf 2Story SFoyer   SLvl 
+   154     14    726      8     11    445     37     65 
+
+$ExterQual
+
+ Ex  Fa  Gd  TA 
+ 52  14 488 906 
+
+$CentralAir
+
+   N    Y 
+  95 1365 
+
+$MSZoning
+
+C (all)      FV      RH      RL      RM 
+     10      65      16    1151     218 
+
