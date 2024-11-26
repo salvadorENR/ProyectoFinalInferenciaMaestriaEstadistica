@@ -1,0 +1,58 @@
+Resumen del modelo completo:
+
+Call:
+lm(formula = formula_completa, data = datos_filtrados)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-551337  -20373   -3865   16041  282015 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.268e+06  8.688e+04  -14.59  < 2e-16 ***
+LotArea      4.338e-01  1.166e-01    3.72 0.000207 ***
+GrLivArea    6.938e+01  2.551e+00   27.20  < 2e-16 ***
+TotalBsmtSF  3.812e+01  3.079e+00   12.38  < 2e-16 ***
+YearBuilt    6.403e+02  4.495e+01   14.24  < 2e-16 ***
+GarageCars   2.074e+04  1.960e+03   10.59  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 42030 on 1454 degrees of freedom
+Multiple R-squared:  0.721,	Adjusted R-squared:   0.72 
+F-statistic: 751.5 on 5 and 1454 DF,  p-value: < 2.2e-16
+
+
+Valores del VIF:
+    LotArea   GrLivArea TotalBsmtSF   YearBuilt  GarageCars 
+   1.118616    1.483678    1.506261    1.522189    1.770752 
+
+Resumen del modelo óptimo:
+
+Call:
+lm(formula = SalePrice ~ LotArea + GrLivArea + TotalBsmtSF + 
+    YearBuilt + GarageCars, data = datos_filtrados)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-551337  -20373   -3865   16041  282015 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -1.268e+06  8.688e+04  -14.59  < 2e-16 ***
+LotArea      4.338e-01  1.166e-01    3.72 0.000207 ***
+GrLivArea    6.938e+01  2.551e+00   27.20  < 2e-16 ***
+TotalBsmtSF  3.812e+01  3.079e+00   12.38  < 2e-16 ***
+YearBuilt    6.403e+02  4.495e+01   14.24  < 2e-16 ***
+GarageCars   2.074e+04  1.960e+03   10.59  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 42030 on 1454 degrees of freedom
+Multiple R-squared:  0.721,	Adjusted R-squared:   0.72 
+F-statistic: 751.5 on 5 and 1454 DF,  p-value: < 2.2e-16
+
+
+Métricas del modelo óptimo:
+R-cuadrado ajustado: 0.7200392 
+Error estándar residual: 42034.08 
