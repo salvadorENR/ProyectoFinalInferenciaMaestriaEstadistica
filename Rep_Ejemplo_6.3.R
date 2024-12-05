@@ -20,7 +20,7 @@ qqnorm(residuals(modelo_inicial), main = "Figura 6.28 Gráfico Q-Q")
 qqline(residuals(modelo_inicial), col = "red", lwd = 1.5)
 dev.off()
 
-# Create the data
+# Creación de la tabla
 grupos <- c("1-4", "5-8", "9-12", "13-16", "17-20", "21-24", "25-27")
 medias <- c(37.00, 53.75, 87.50, 88.00, 121.00, 127.75, 152.30)
 rangos <- c(64, 92, 96, 21, 165, 179, 400)
